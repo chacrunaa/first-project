@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./App.css";
 import { Shitting } from "./components/Shitting";
 

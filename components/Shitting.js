@@ -1,14 +1,10 @@
-import { useState } from "react";
+import React, { useState }  from "react"; 
 
 export function Shitting() {
   const [govnoData, setGovnoData] = useState([]);
 
   const getGovno = () => {
     setGovnoData((prev) => [...(prev + 1)]);
-  };
-
-  const deleteGovno = () => {
-    setGovnoData((prev) => prev - 1);
   };
 
   return (
